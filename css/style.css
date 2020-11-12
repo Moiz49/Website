@@ -116,7 +116,7 @@ body {
 
 /*general*/
 h1 {
-    font-size: 3.625rem;
+    font-size: 3.825rem;
     color: #66BFBF;
     margin-top: 0;
     font-family: cursive;
@@ -130,6 +130,8 @@ h2 {
 h3 {
     color: #11999E;
     font-family: serif;
+    font-size: 1.25rem;
+    font-weight: normal;
 }
 a {
     color: #11999E;
