@@ -4,9 +4,42 @@ body {
     text-align: center;
     font-family: sans-serif;
 }
+h1 {
+    font-size: 3.825rem;
+    color: #66BFBF;
+    margin-top: 0;
+    font-family: cursive;
+}
+h2 {
+    font-size: 2.2rem;
+    color: #66BFBF;
+    font-family: serif;
+    font-weight: normal;
+}
+h3 {
+    color: #11999E;
+    font-family: serif;
+    font-size: 1.25rem;
+    font-weight: normal;
+}
+a {
+    color: #11999E;
+    margin: 10px 10px;
+    text-decoration: none;
+}
+a:hover {
+    color: #EAF6F6;
+}
+hr {
+    border: dotted #EAF6F6 5px;
+    border-bottom: none;
+    width: 40%;
+    margin: 80px auto;
+}
 
 
-/*top Div*/
+
+/* Title */
 .top-container {
     background-color: #E4F9F5;
     padding-top: 150px;
@@ -24,10 +57,15 @@ body {
     left: 300px;
     top: 280px;
 }
+@media (max-width: 600px) {
+    .mountain {
+        width: 80%;
+    }
+}
 
 
 
-/*mid Div*/
+/* About Me */
 .middle-container {
     padding: 100px 0 80px 0;
 }
@@ -39,26 +77,38 @@ body {
     width: 40%;
     margin: auto;
 }
-/*
-#Projects{
-    padding-top: 80px;
+
+
+
+/* Projects */
+.container-fluid {
+    padding: 0 12%;
 }
-*/
-.skill-row{
-    width: 50%;
-    margin: 100px auto 150px auto;
+.project-item {
+    text-align: center;
+    padding: 80px 50px;
+}
+.project-item:hover {
+    padding: 80px 40px;
+    background-color: #E4F9F5;
+}
+.project-img {
+    width: 60%;
+    margin-bottom: 20px;
+}
+.project-text {
     text-align: left;
+    
 }
-.web-img {
-    width: 22%;
-    float: left;
-    margin-right: 40px;
-}
-.data-img {
-    width: 22%;
+.project-link-img {
+    width: 12%;
     float: right;
-    margin-left: 40px;
+    margin: 0 2px;
 }
+
+
+
+/* Contact*/
 .contact-button {
    background: #11CDD4;
    background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
@@ -113,40 +163,6 @@ body {
     padding: 10px 0;
 }
 
-
-/*general*/
-h1 {
-    font-size: 3.825rem;
-    color: #66BFBF;
-    margin-top: 0;
-    font-family: cursive;
-}
-h2 {
-    font-size: 1.825rem;
-    color: #66BFBF;
-    font-family: serif;
-    font-weight: normal;
-}
-h3 {
-    color: #11999E;
-    font-family: serif;
-    font-size: 1.25rem;
-    font-weight: normal;
-}
-a {
-    color: #11999E;
-    margin: 10px 10px;
-    text-decoration: none;
-}
-a:hover {
-    color: #EAF6F6;
-}
-hr {
-    border: dotted #EAF6F6 5px;
-    border-bottom: none;
-    width: 40%;
-    margin: 80px auto;
-}
 
 
 
